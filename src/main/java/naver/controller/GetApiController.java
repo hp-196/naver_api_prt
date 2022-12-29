@@ -6,13 +6,9 @@ import org.springframework.web.bind.annotation.*;
 import java.util.Map;
 
 @RestController
-@RequestMapping("/api/get")
+@RequestMapping("/api")
 public class GetApiController {
 
-    @GetMapping(path = "/hello")
-    public String getHello() {
-        return "get hello";
-    }
 
     @GetMapping("/pathVariable/{name}")
     public String pathVariable(@PathVariable String name) {
@@ -20,7 +16,7 @@ public class GetApiController {
         return name;
     }
 
-    @GetMapping(path = "query-param")
+    @GetMapping("/query-param")
     public String queryParam(@RequestParam Map<String, String> queryParam) {
 
         StringBuilder sb = new StringBuilder();
@@ -31,9 +27,7 @@ public class GetApiController {
 
             sb.append(entry.getKey()+" = "+entry.getValue()).append('\n');
         });
-
         return sb.toString();
-
     }
 
     @GetMapping("query-param02")
@@ -41,20 +35,12 @@ public class GetApiController {
             @RequestParam String name,
             @RequestParam String email,
             @RequestParam int age) {
-        System.out.println(name);
-        System.out.println(email);
-        System.out.println(age);
 
         return name+" "+email+" "+age;
     }
 
     @GetMapping("query-param03")
     public String queryParam3(UserRequest userRequest) {
-
-        System.out.println(userRequest.getName());
-        System.out.println(userRequest.getEmail());
-        System.out.println(userRequest.getAge());
-
         return userRequest.toString();
     }
 
