@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/api")
 public class PutApiController {
 
-    @PutMapping("/put")
+    @PutMapping("/putt")
     public void put(@RequestBody PutRequestDto putRequestDto) {
         System.out.println(putRequestDto);
     }
