@@ -1,6 +1,6 @@
-package naver.Repository;
+package naver.naver.Repository;
 
-import naver.restaurant.WishListEntity;
+import naver.naver.restaurant.WishListEntity;
 import org.springframework.stereotype.Repository;
 
 @Repository

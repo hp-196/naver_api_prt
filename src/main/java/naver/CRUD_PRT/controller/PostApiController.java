@@ -1,6 +1,6 @@
-package naver.controller;
+package naver.CRUD_PRT.controller;
 
-import naver.dto.PostRequestDto;
+import naver.CRUD_PRT.dto.PostRequestDto;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;

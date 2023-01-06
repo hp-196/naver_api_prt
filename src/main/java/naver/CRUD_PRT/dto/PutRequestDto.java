@@ -1,4 +1,4 @@
-package naver.dto;
+package naver.CRUD_PRT.dto;
 
 import com.fasterxml.jackson.databind.PropertyNamingStrategy;
 import com.fasterxml.jackson.databind.annotation.JsonNaming;

@@ -1,6 +1,6 @@
-package naver.controller;
+package naver.CRUD_PRT.controller;
 
-import naver.dto.PutRequestDto;
+import naver.CRUD_PRT.dto.PutRequestDto;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;

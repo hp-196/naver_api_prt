@@ -1,4 +1,4 @@
-package naver.dto;
+package naver.CRUD_PRT.dto;
 
 import lombok.Getter;
 import lombok.Setter;

@@ -1,4 +1,4 @@
-package naver.Repository;
+package naver.naver.Repository;
 
 
 import java.util.ArrayList;

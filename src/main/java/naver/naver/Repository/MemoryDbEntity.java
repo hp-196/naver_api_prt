@@ -1,4 +1,4 @@
-package naver.Repository;
+package naver.naver.Repository;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -9,6 +9,6 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class MemoryDbEntity {
 
-    protected int index;
+    protected Integer index;
 
 }

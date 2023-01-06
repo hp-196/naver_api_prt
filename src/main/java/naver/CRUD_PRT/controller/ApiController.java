@@ -1,8 +1,6 @@
-package naver.controller;
+package naver.CRUD_PRT.controller;
 
-import naver.dto.UserDto;
-import org.apache.catalina.User;
-import org.springframework.boot.context.properties.bind.BindResult;
+import naver.CRUD_PRT.dto.UserDto;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.BindingResult;

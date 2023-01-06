@@ -1,6 +1,6 @@
-package naver.controller;
+package naver.CRUD_PRT.controller;
 
-import naver.dto.UserRequest;
+import naver.CRUD_PRT.dto.UserRequest;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.Map;
